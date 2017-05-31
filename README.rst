@@ -76,17 +76,19 @@ examples at `pyboleto_sample.py`_
 Installation
 ============
 
-You can install pyboleto either via the Python Package Index (PyPI)
-or from source.
+You can install pyboleto via pip or from source.
 
-To install using pip,::
+To install using pip::
 
-    $ pip install pyboleto
+    $ pip install git+https://github.com/luizalabs/pyboleto@<release>#egg=pyboleto
+
+Where ``<release>`` is the number of the `last release`_.
 
 To install using easy_install,::
 
     $ easy_install pyboleto
 
+.. _last release: https://github.com/luizalabs/pyboleto/releases/
 
 .. _pyboleto-installing-from-source:
 
