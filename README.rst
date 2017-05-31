@@ -112,7 +112,7 @@ Using the development version
 
 You can clone the repository by doing the following::
 
-    $ git clone https://github.com/eduardocereto/pyboleto.git
+    $ git clone https://github.com/luizalabs/pyboleto.git
 
 .. _pyboleto-unittests:
 
