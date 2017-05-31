@@ -1,14 +1,10 @@
 ========
 pyboleto
 ========
-|travis| |pypi|
+|travis|
 
-.. |travis| image:: https://secure.travis-ci.org/eduardocereto/pyboleto.png?branch=master
-   :target: http://travis-ci.org/#!/eduardocereto/pyboleto
-   
-.. |pypi| image:: https://img.shields.io/pypi/v/pyboleto.svg
-    :target: https://pypi.python.org/pypi/pyboleto/
- 
+.. |travis| image:: https://api.travis-ci.org/luizalabs/pyboleto.png
+   :target: http://travis-ci.org/#!/luizalabs/pyboleto
 
 .. _pyboleto-synopsis:
 
@@ -69,48 +65,25 @@ The best way to learn how to create Boletos using pyboleto is to look at the
 examples at `pyboleto_sample.py`_
 
 
-.. _pyboleto_sample.py: https://github.com/eduardocereto/pyboleto/blob/master/bin/pyboleto_sample.py
+.. _pyboleto_sample.py: https://github.com/luizalabs/pyboleto/blob/master/bin/pdf_pyboleto_sample.py
 
 .. _pyboleto-installation:
 
 Installation
 ============
 
-You can install pyboleto either via the Python Package Index (PyPI)
-or from source.
+You can install pyboleto via pip::
 
-To install using pip,::
+    $ pip install git+https://github.com/luizalabs/pyboleto@<release>#egg=pyboleto
 
-    $ pip install pyboleto
-
-To install using easy_install,::
-
-    $ easy_install pyboleto
-
-
-.. _pyboleto-installing-from-source:
-
-Downloading and installing from source
---------------------------------------
-
-Download the latest version of pyboleto from
-http://pypi.python.org/pypi/pyboleto/
-
-You can install it by doing the following,::
-
-    $ tar xvfz pyboleto-0.0.0.tar.gz
-    $ cd pyboleto-0.0.0
-    $ python setup.py build
-    # python setup.py install # as root
-
-.. _pyboleto-installing-from-hg:
+Where ``<release>`` is the number of the `last release`_.
 
 Using the development version
 -----------------------------
 
 You can clone the repository by doing the following::
 
-    $ git clone https://github.com/eduardocereto/pyboleto.git
+    $ git clone https://github.com/luizalabs/pyboleto.git
 
 .. _pyboleto-unittests:
 
