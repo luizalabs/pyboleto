@@ -3,8 +3,8 @@ pyboleto
 ========
 |travis|
 
-.. |travis| image:: https://secure.travis-ci.org/eduardocereto/pyboleto.png?branch=master
-   :target: http://travis-ci.org/#!/eduardocereto/pyboleto
+.. |travis| image:: https://api.travis-ci.org/luizalabs/pyboleto.png
+   :target: http://travis-ci.org/#!/luizalabs/pyboleto
 
 .. _pyboleto-synopsis:
 
