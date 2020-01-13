@@ -68,7 +68,11 @@ setup(
     test_suite='tests.alltests.suite',
     install_requires=[
         'reportlab',
-        'six'
+        'six',
+        'pillow==6.2.2',
+        'pylint==1.9.5',
+        'more-itertools==5.0.0',
+        'pytz==2019.3'
     ],
     tests_require=[
         'pylint',
