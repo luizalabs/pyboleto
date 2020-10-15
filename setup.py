@@ -67,7 +67,8 @@ setup(
     platforms='any',
     test_suite='tests.alltests.suite',
     install_requires=[
-        'reportlab'
+        'reportlab',
+        'six'
     ],
     tests_require=[
         'pylint',
@@ -75,6 +76,6 @@ setup(
         'coverage',
         'pep8',
         'sphinx-pypi-upload',
-        'sphinx'
+        'sphinx==1.8.5'
     ]
 )
