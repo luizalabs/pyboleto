@@ -24,7 +24,7 @@ def get_version(package):
 
 
 setup(
-    name='pyboleto',
+    name='pyboleto-luizalabs',
     version=get_version('pyboleto'),
     author='Eduardo Cereto Carvalho',
     author_email='eduardocereto@gmail.com',
@@ -68,7 +68,12 @@ setup(
     test_suite='tests.alltests.suite',
     install_requires=[
         'reportlab',
-        'six'
+        'six',
+        'pillow==6.2.2',
+        'pylint==1.9.5',
+        'more-itertools==5.0.0',
+        'pytz==2019.3',
+        'twine==3.1.1'
     ],
     tests_require=[
         'pylint',
@@ -77,5 +82,6 @@ setup(
         'pep8',
         'sphinx-pypi-upload',
         'sphinx==1.8.5'
-    ]
+    ],
+    setup_requires=['wheel']
 )
